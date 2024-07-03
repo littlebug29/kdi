@@ -14,6 +14,8 @@ dependencies {
     implementation(libs.auto.service)
     implementation(libs.androidx.lifecycle.common.jvm)
     implementation(libs.androidx.appcompat)
+    implementation("com.squareup:kotlinpoet:1.17.0")
+    implementation("com.squareup:kotlinpoet-ksp:1.17.0")
     ksp(libs.auto.service)
     implementation(kotlin("reflect"))
 }
